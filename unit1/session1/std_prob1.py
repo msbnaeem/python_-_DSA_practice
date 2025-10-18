@@ -93,6 +93,33 @@ lst = [1,2,3,4,5,6,7,8]
 def print_todo_list(task):
     print("Pooh's To Dos:")
     
+# Problem 8: Pooh's To Do's
+
+def print_todo_list(task):
+	
+    for number, task in enumerate(task):
+        print(number, task)
+
+
+# task = ["Count all the bees in the hive", "Chase all the clouds from the sky", "Think", "Stoutness Exercises"]
+# print_todo_list(task)
+
+# task = []
+# print_todo_list(task)
+
+# Problem 9: Pairs
+def can_pair(item_quantities):
+    even = []
+    for num in item_quantities:
+        if num % 2 != 0:
+            return False
+        else:
+            return True
+
+
+
+    
+
 
 '''
 Problem 10: Split Haycorns
